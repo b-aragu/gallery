@@ -31,8 +31,8 @@ module.exports = {
 		{
 			test: /\.less$/,
 			use: [
-				'style-loader', 
-				'css-loader', 
+				'style-loader',
+				'css-loader',
 				'postcss-loader',
 				'less-loader'
 			]
@@ -49,7 +49,7 @@ module.exports = {
 		}]
 	},
 	plugins: [
-		new webpack.DefinePlugin({ 
+		new webpack.DefinePlugin({
 			'process.env': {
 				NODE_ENV: JSON.stringify('development') // 环境定义
 			}

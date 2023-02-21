@@ -20,7 +20,7 @@ module.exports = {
 	output: {
 		path: join('../dist'),
 		filename: 'js/[name]_[chunkhash:7].js',
-		publicPath: '/love-gallery/'
+		publicPath: '/gallery/'
 	},
 	resolve: {
 		extensions: ['.js', '.jsx', '*']
@@ -49,7 +49,7 @@ module.exports = {
 		}]
 	},
 	plugins: [
-		new webpack.DefinePlugin({ 
+		new webpack.DefinePlugin({
 			'process.env': {
 				NODE_ENV: JSON.stringify('development') // 环境定义
 			}
