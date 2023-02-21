@@ -2,7 +2,7 @@
   "name": "love-gallery",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/hetianqi/love-gallery.git",
+  "repository": "https://github.com/b-aragu/gallery.git",
   "author": "hetianqi <449165578@qq.com>",
   "license": "MIT",
   "scripts": {
